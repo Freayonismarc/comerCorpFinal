@@ -75,6 +75,28 @@
   right: auto;
   left: 15px;
 }
+#cssmenu ul li ul li.has-sub:before {
+
+  content: "";
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgb(12, 12, 12);
+  /*display: block;
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  border: 3px solid transparent;
+  border-left-color: #0e0d0d;
+  z-index: 2;
+  top: 15px;
+  right: 15px;*/
+}
 #cssmenu.align-right ul li ul li.has-sub:before {
   right: auto;
   left: 15px;

@@ -212,15 +212,15 @@ article:after, article:before{clear: both; content: '\0020'; display: block; vis
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Footer--------------------------------- */
 /* ---------------------------------------------------------------------------- */
-footer#footer{background: #000000;font-size: 14px;position: fixed;top: auto;bottom: 0;left: 0;width: 100%;display:block;}
+footer#footer{background: #ffffff;font-size: 14px;position: fixed;top: auto;bottom: 0;left: 0;width: 100%;display:block;}
 footer a{color: #e20d0d}
-footer a:hover{color: #fff}
+footer a:hover{color: #000000}
 footer .widget-title{text-transform: capitalize;margin-bottom: 30px; color: #e20d0d;}
 footer .wrap-footer{padding: 70px 60px 0;}
-footer .brand-footer{font-size: 57px;text-transform: uppercase;letter-spacing: 5px;color: rgb(255, 255, 255);}
+footer .brand-footer{font-size: 57px;text-transform: uppercase;letter-spacing: 5px;color: #000000;}
 footer ul li{margin-bottom: 5px;padding: 10px 0 15px;display: inline-block;}
 footer ul.quicklinks li{position:relative;padding: 0 10px;}
-footer ul.quicklinks li:after{position: absolute;content: "";border-right: 1px solid rgb(255, 253, 253);height: 16px;top: 5px;padding-left: 10px;}
+footer ul.quicklinks li:after{position: absolute;content: "";border-right: 1px solid #000000;height: 16px;top: 5px;padding-left: 10px;}
 footer ul.quicklinks li:last-child:after{display: none;}
 footer ul.quicklinks li:first-child{padding-left: 0;}
 footer .col-footer-1 {}
@@ -233,7 +233,7 @@ footer .col-footer-3 ul.social-buttons{}
 footer .col-footer-3 ul.social-buttons li a{font-size: 32px;margin: 15px;}
 
 footer .bottom-footer{margin-top: 50px;}
-.copyright{background: #0f0f0f;color: rgb(248, 241, 241);padding: 20px;text-align: center;}
+.copyright{background: #070606;color: #fff7f7;padding: 20px;text-align: center;}
 
 @media all and (max-width: 768px){
 	footer#footer{position: relative;}
