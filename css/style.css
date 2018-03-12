@@ -103,7 +103,7 @@ hr.line03:after {color: #fff;background-color: #303231;}
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
 html, body {height: 100%;width:100%; padding:0; margin:0;}
-body {background: #fff;color: #3F3F3F;font: 15px/25px Arial;font-family: "Roboto",serif; font-weight: 400;}
+body {background: #fff;color: #3F3F3F;font: 15px/25px;font-family:"Trebuchet MS", Helvetica, sans-serif; font-weight: 400;}
 body.index-page .main-header{height: calc(100vh - 50px);}
 @media screen and (max-width:767px){
 	body.index-page .main-header{height: calc(80vh - 50px);}
